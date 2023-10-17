@@ -1,4 +1,5 @@
-# Mermaid notebook
+# Community list of Mermaid diagrams [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+### You wish to add or change something? Please send me an [email](mailto:mvarga1989@gmail.com), create a [pull request](https://github.com/mvarga1989/Mermaid_notebook/pulls) or an [issue](https://github.com/mvarga1989/Mermaid_notebook/issues).
 
 ## Flowchart:
 ```mermaid
