@@ -1,5 +1,6 @@
 # Mermaid notebook
 
+## Flowchart:
 ```mermaid
 graph LR
     subgraph Input
@@ -19,6 +20,25 @@ graph LR
     A --> E
 ```
 
+
+## Sequence diagram:
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+
+    Alice->>Bob: Hello
+    Bob->>Alice: Hi
+    Alice->>Bob: How are you doing?
+    Bob->>Alice: I'm doing well, thanks for asking.
+    Alice->>Bob: That's good to hear.
+    Bob->>Alice: What's up?
+    Alice->>Bob: Not much. Just wanted to say hi.
+    Bob->>Alice: It's good to hear from you.
+    Alice->>Bob: Talk to you later.
+    Bob->>Alice: Bye.
+```
+	
 ```mermaid
   graph TD;
       A-->B;
@@ -27,7 +47,31 @@ graph LR
       C-->D;
 ```
 
+## Gantt chart:
+```mermaid
+gantt
+    title Project Plan
+    dateFormat  YYYY-MM-DD
 
+    section Requirements
+        Requirements gathering    :start=2023-10-17, end=2023-10-21
+        Requirements analysis     :start=2023-10-21, end=2023-10-28
+    section Design
+        System design              :start=2023-10-28, end=2023-11-04
+        Database design           :start=2023-11-04, end=2023-11-11
+        User interface design   :start=2023-11-11, end=2023-11-18
+    section Development
+        Backend development     :start=2023-11-18, end=2023-12-05
+        Frontend development   :start=2023-11-25, end=2023-12-12
+    section Testing
+        Unit testing              :start=2023-12-05, end=2023-12-12
+        Integration testing     :start=2023-12-12, end=2023-12-19
+        System testing           :start=2023-12-19, end=2023-12-26
+    section Deployment
+        Deploy to production  :start=2023-12-26, end=2023-12-31
+```
+		
+## Source: [martinwoodward](https://gist.github.com/martinwoodward/8ad6296118c975510766d80310db71fd?permalink_comment_id=4065246)
 ```mermaid
 sequenceDiagram
     participant user
@@ -43,6 +87,8 @@ sequenceDiagram
     iframe->>iframe: render mermaid
 ```
 
+
+## Source: [LozanoMatheus](https://gist.github.com/martinwoodward/8ad6296118c975510766d80310db71fd?permalink_comment_id=4065246#gistcomment-4065246)
 ```mermaid
 flowchart LR;
     A-->B;
@@ -54,7 +100,8 @@ flowchart LR;
     click B href "http://www.github.com" "This is a tooltip for a link"
 ```
 	
-	
+
+## Source: [Datamweb](https://gist.github.com/martinwoodward/8ad6296118c975510766d80310db71fd?permalink_comment_id=4067229#gistcomment-4067229)
 ```mermaid
   flowchart LR;
       A[CI MULTI CHAPTCHA]-->B{Select captcha service by developer?};
@@ -81,7 +128,7 @@ flowchart LR;
       D---Controller:::black-->T["CIMC_RULE('archaptcha,recaptcha,bibot');"]:::black;
 ```
 
-## [Source: mathdatasimplified.com](https://mathdatasimplified.com/2022/04/29/mermaid-create-flow-chart-using-code/)
+## Source: [mathdatasimplified.com](https://mathdatasimplified.com/2022/04/29/mermaid-create-flow-chart-using-code/)
 ```mermaid
 graph TD
     A[Should you go to work today?] --> B(Do you like working?)
