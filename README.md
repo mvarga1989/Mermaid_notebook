@@ -1,6 +1,14 @@
 # Community list of Mermaid diagrams [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ### You wish to add or change something? Please send me an [email](mailto:mvarga1989@gmail.com), create a [pull request](https://github.com/mvarga1989/Mermaid_notebook/pulls) or an [issue](https://github.com/mvarga1989/Mermaid_notebook/issues).
 
+## Click functionality
+
+```mermaid
+graph LR;
+A-->Google;
+click Google "http://www.google.com"
+```
+
 ## Flowchart:
 ```mermaid
 graph LR
@@ -53,7 +61,6 @@ sequenceDiagram
 gantt
     title Project Plan
     dateFormat  YYYY-MM-DD
-
     section Requirements
         Requirements gathering    :start=2023-10-17, end=2023-10-21
         Requirements analysis     :start=2023-10-21, end=2023-10-28
@@ -71,7 +78,7 @@ gantt
     section Deployment
         Deploy to production  :start=2023-12-26, end=2023-12-31
 ```
-		
+
 ## Source: [martinwoodward](https://gist.github.com/martinwoodward/8ad6296118c975510766d80310db71fd?permalink_comment_id=4065246)
 ```mermaid
 sequenceDiagram
