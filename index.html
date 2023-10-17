@@ -1,46 +1,39 @@
 <!DOCTYPE html>
-# https://jojozhuang.github.io/tutorial/generating-diagrams-and-flowcharts-with-mermaid/
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" crossorigin="anonymous">
+  <!-- Include Mermaid CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/mermaid@8.0.0-rc.8/dist/mermaid.css">
 </head>
 
 <body>
 
   <div class="mermaid">
-
-  graph LR
-
-      A --- B
-
-      B-->C[Happy]
-
-      B-->D(Sad);
-
+    graph LR
+    A --- B
+    B-->C[Happy]
+    B-->D(Sad);
   </div>
-  
+
   <div class="mermaid">
     graph TD
-      B[peace]
-      B-->C[fa:fa-ban forbidden]
-      B-->D(fa:fa-spinner);
-      B-->E(fa:fa-camera-retro perhaps?);
-</div>
+    B[peace]
+    B-->C[fa:fa-ban forbidden]
+    B-->D(fa:fa-spinner);
+    B-->E(fa:fa-camera-retro perhaps?);
+  </div>
 
   <script src="https://unpkg.com/mermaid@8.0.0-rc.8/dist/mermaid.min.js"></script>
 
   <script>
-
-    mermaid.initialize({
-
-      theme: 'forest'
-
+    // Initialize Mermaid after the document has fully loaded
+    document.addEventListener('DOMContentLoaded', function () {
+      mermaid.initialize({
+        theme: 'forest'
+      });
     });
-
   </script>
 
 </body>
