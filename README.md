@@ -64,6 +64,7 @@ flowchart LR;
       D---Controller:::black-->T["CIMC_RULE('archaptcha,recaptcha,bibot');"]:::black;
 ```
 
+## [Source: mathdatasimplified.com](https://mathdatasimplified.com/2022/04/29/mermaid-create-flow-chart-using-code/)
 ```mermaid
 graph TD
     A[Should you go to work today?] --> B(Do you like working?)
