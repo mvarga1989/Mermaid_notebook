@@ -3,6 +3,7 @@
 
 ## Sources
 - [Mermaid cheat sheet](https://jojozhuang.github.io/tutorial/mermaid-cheat-sheet/)
+- [Creating data structure diagrams with Mermaid](https://jojozhuang.github.io/tutorial/creating-data-structure-diagrams-with-mermaid/)
 - [Mermaid demo](https://mvarga1989.github.io/Mermaid_notebook/)
 
 ## Examples
