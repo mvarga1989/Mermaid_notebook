@@ -1,6 +1,23 @@
 # Mermaid notebook
 
-
+```mermaid
+graph LR
+    subgraph Input
+        A[Start] --> B[Read user input]
+    end
+    subgraph Process
+        B --> C[Process user input]
+    end
+    subgraph Output
+        C --> D[Display output]
+    end
+    subgraph Condition
+        A --> E[Is user input valid?]
+        E --> F[Yes] --> B
+        E --> G[No] --> D
+    end
+    A --> E
+```
 
 ```mermaid
   graph TD;
