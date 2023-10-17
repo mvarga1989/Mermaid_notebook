@@ -2,8 +2,8 @@
 ### You wish to add or change something? Please send me an [email](mailto:mvarga1989@gmail.com), create a [pull request](https://github.com/mvarga1989/Mermaid_notebook/pulls) or an [issue](https://github.com/mvarga1989/Mermaid_notebook/issues).
 
 ## Sources
-
 -[Mermaid cheat sheet](https://jojozhuang.github.io/tutorial/mermaid-cheat-sheet/)
+-[Mermaid demo](https://mvarga1989.github.io/Mermaid_notebook/)
 
 ## Examples
 ### Click functionality
